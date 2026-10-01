@@ -113,7 +113,18 @@
       0.0
     ]
   },
-  "SluiceSpec": {},
+  "FillValveSpec": {
+    "DefaultTargetHeightEnabled": true,
+    "DefaultTargetHeightOffset": 0.5,
+    "DefaultAutomationTargetHeightEnabled": true,
+    "DefaultAutomationTargetHeightOffset": 0.0,
+    "OverflowLimit": 0.02,
+    "OutputCoordinates": {
+      "X": 0,
+      "Y": 1,
+      "Z": 0
+    }
+  },
   "Children": {
     "#Finished": {
       "CollidersSpec": {

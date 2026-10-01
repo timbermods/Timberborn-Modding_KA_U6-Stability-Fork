@@ -1,3 +1,8 @@
+1.1.0.0
+* Fix crash 'No type found for key DrivewayModelSpec' on Efficient Builders Hut, Hauling Post and Wood Workshop (now DrivewayModelsSpec).
+* Efficient water pumps: pipe settings moved into WaterInputPipeSpec (1.1 format).
+* Requires game version 1.1.0.0 or newer.
+
 1.0.1.03
 * Barn New icon!
 
@@ -22,5 +27,5 @@
 
 ---
 MinimumGameVersion: 1.0.13.0
-MaximumGameVersion: 1.0.99.9
+MaximumGameVersion: 1.1.99.9
 ---

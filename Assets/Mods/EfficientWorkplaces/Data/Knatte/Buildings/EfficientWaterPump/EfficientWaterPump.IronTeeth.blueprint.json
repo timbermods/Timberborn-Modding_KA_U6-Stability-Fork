@@ -395,10 +395,12 @@
       "X": 1,
       "Y": 1,
       "Z": -1
-    },
-    "MaxDepth": 6,
+    }
+  },
+  "WaterInputPipeSpec": {
     "PipeSegmentPrefabPath": "Knatte/Buildings/Water/EfficientWaterPumpPipeSegment.IronTeeth",
-    "PipeParentName": "#Finished"
+    "PipeParentName": "#Finished",
+    "MaxDepth": 6
   },
   "ConstructionSiteProgressVisualizerSpec": {
     "ProgressThresholds": [

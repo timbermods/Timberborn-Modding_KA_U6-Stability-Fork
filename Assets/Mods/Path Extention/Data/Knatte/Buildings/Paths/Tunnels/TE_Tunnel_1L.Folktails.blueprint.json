@@ -138,16 +138,20 @@
     "CanBeAttachedToTerrainSide": false,
     "DevModeTool": false
   },
-  "DrivewayModelSpec": {
-    "Driveway": "StraightPath",
-    "HasCustomCoordinates": true,
-    "CustomCoordinates": {
-      "X": 0,
-      "Y": -1,
-      "Z": 0
-    },
-    "CustomDirection": "Down",
-    "DrivewayMode": "Unidirectional"
+  "DrivewayModelsSpec": {
+    "Driveways": [
+      {
+        "Driveway": "StraightPath",
+        "HasCustomCoordinates": true,
+        "CustomCoordinates": {
+          "X": 0,
+          "Y": -1,
+          "Z": 0
+        },
+        "CustomDirection": "Down",
+        "DrivewayMode": "Unidirectional"
+      }
+    ]
   },
   "LabeledEntitySpec": {
     "DisplayNameLocKey": "KnatteTobbert.Tunnel_1L.DisplayName",

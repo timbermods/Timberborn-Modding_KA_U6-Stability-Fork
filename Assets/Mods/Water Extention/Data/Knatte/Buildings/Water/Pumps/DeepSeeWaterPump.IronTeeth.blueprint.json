@@ -291,10 +291,12 @@
       "X": 0,
       "Y": 2,
       "Z": 0
-    },
-    "MaxDepth": 1,
+    }
+  },
+  "WaterInputPipeSpec": {
     "PipeSegmentPrefabPath": "Knatte\\Buildings\\Water\\DeepSeePipeSegment.Common",
-    "PipeParentName": "#Finished"
+    "PipeParentName": "#Finished",
+    "MaxDepth": 1
   },
   "WorkshopAnimationControllerSpec": {},
   "ConstructionSiteProgressVisualizerSpec": {

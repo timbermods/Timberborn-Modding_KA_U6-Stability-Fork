@@ -419,7 +419,9 @@
       "X": 0,
       "Y": 18,
       "Z": 1
-    }
+    },
+    "DistanceToGroundOffset": 0.0,
+    "OverflowAllowed": false
   },
   "WaterObstacleSpec": {
     "Coordinates": [
@@ -441,10 +443,12 @@
       "X": 0,
       "Y": 0,
       "Z": 0
-    },
-    "MaxDepth": 1,
+    }
+  },
+  "WaterInputPipeSpec": {
     "PipeSegmentPrefabPath": "Knatte\\Buildings\\Water\\DeepSeePipeSegment.Common",
-    "PipeParentName": "#Finished"
+    "PipeParentName": "#Finished",
+    "MaxDepth": 1
   },
   "WaterMoverParticleControllerSpec": {
     "AttachmentIds": [
@@ -452,7 +456,10 @@
     ]
   },
   "WaterOutputParticleSpec": {
-    "AttachmentId": "Water"
+    "AttachmentId": "Water",
+    "SpawnOffset": 0.25,
+    "FadeDistance": 0.0,
+    "MinimumLifetime": 0.0
   },
   "TemplateAttachmentsSpec": {
     "Attachments": [
