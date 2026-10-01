@@ -1,3 +1,23 @@
+# Stability Fork
+
+> **This is a community fork of [KnatteAnka/Timberborn-Modding_KA_U6](https://github.com/KnatteAnka/Timberborn-Modding_KA_U6).**
+> It exists only to fix bugs and keep the mods working with new Timberborn versions. **All credit for the mods, models, blueprints and everything else here belongs to the original author, KnatteAnka.** This fork is not affiliated with or endorsed by them, and the official mods are the ones published on mod.io.
+
+Licensed under the [GNU GPL v3](LICENSE), same as upstream. Per GPL v3 section 5, the changes made in this fork are listed below.
+
+## Changes from upstream (2026-10-01, v1.1.0)
+
+Fixes for Timberborn 1.1 (see the [release notes](https://github.com/timbermods/Timberborn-Modding_KA_U6-Stability-Fork/releases/tag/v1.1.0) for detail):
+
+- `DrivewayModelSpec` renamed to `DrivewayModelsSpec` in Path Extention, Water Extention Irrigation and EfficientWorkplaces (fixes the new-game crash).
+- Path Extention bridges no longer delete paths, shafts and other objects on their deck when a save is loaded.
+- Water Extention: Aqueduct Sluice moved to `FillValveSpec`; pipes and efficient pumps moved to `WaterInputPipeSpec` and the new water output fields.
+- Mod versions bumped and `MinimumGameVersion` set to 1.1.0.0, with changelog entries per mod.
+
+Not fixed yet: gravity battery next to a tunnel, tunnels other than the levee tunnel, and metal bridges. Bug reports and fixes are welcome as issues or pull requests on this fork. Anything that is really an upstream design question should go to the original author.
+
+---
+
 # Timberborn modding tools and examples
 
 See: [Devs Timberborn Modding](https://github.com/mechanistry/timberborn-modding/tree/main) for more information and setup
