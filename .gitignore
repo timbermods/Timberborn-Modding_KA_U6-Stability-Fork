@@ -70,3 +70,8 @@ sysinfo.txt
 
 # Packaged mod zips
 /dist/
+/build/**/bin/
+/build/**/obj/
+
+/tools/**/bin/
+/tools/**/obj/
