@@ -67,3 +67,6 @@ sysinfo.txt
 # Microsoft Office temporary files
 ~*
 
+
+# Packaged mod zips
+/dist/

@@ -24,6 +24,14 @@ Bug reports and fixes are welcome as issues or pull requests on this fork. Anyth
 
 ---
 
+## Installing the built mods
+
+Download the zips from the [latest release](https://github.com/timbermods/Timberborn-Modding_KA_U6-Stability-Fork/releases/latest), close Timberborn, extract the folder from each zip into `Documents\Timberborn\Mods`, then enable the mod in the game's mod manager. Required mods (`KnatteAnka.Materials`, `ModdableToolGroups`, and TimberCommons for the irrigation towers) come from mod.io and are not bundled.
+
+Built here (plain-file mods, no Unity needed): **Path Extention** and **Water Extention Irrigation**, via `python tools/package_mods.py`. **Water Extention** (pipe prefab), **EfficientWorkplaces** (prefabs and a Harmony DLL) and **KnattesMaterials** need a Unity asset-bundle build and are source-only for now.
+
+---
+
 # Timberborn modding tools and examples
 
 See: [Devs Timberborn Modding](https://github.com/mechanistry/timberborn-modding/tree/main) for more information and setup
