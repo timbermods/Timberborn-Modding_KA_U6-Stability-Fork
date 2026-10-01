@@ -5,7 +5,7 @@
 
 Licensed under the [GNU GPL v3](LICENSE), same as upstream. Per GPL v3 section 5, the changes made in this fork are listed below.
 
-## Changes from upstream (2026-10-01, v1.1.0)
+## Changes from upstream (2026-10-01, v1.1.0 and v1.1.1)
 
 Fixes for Timberborn 1.1 (see the [release notes](https://github.com/timbermods/Timberborn-Modding_KA_U6-Stability-Fork/releases/tag/v1.1.0) for detail):
 
@@ -14,7 +14,13 @@ Fixes for Timberborn 1.1 (see the [release notes](https://github.com/timbermods/
 - Water Extention: Aqueduct Sluice moved to `FillValveSpec`; pipes and efficient pumps moved to `WaterInputPipeSpec` and the new water output fields.
 - Mod versions bumped and `MinimumGameVersion` set to 1.1.0.0, with changelog entries per mod.
 
-Not fixed yet: gravity battery next to a tunnel, tunnels other than the levee tunnel, and metal bridges. Bug reports and fixes are welcome as issues or pull requests on this fork. Anything that is really an upstream design question should go to the original author.
+Status of the remaining reported items:
+
+- **Longer tunnels (TE_Tunnel_1 to 9):** regenerated as flat 1.1 blueprints with `tools/flatten_tunnels.py` (v1.1.1). Still dev-mode only until someone confirms in-game that they tunnel correctly on 1.1.
+- **Gravity battery sharing a tile with a tunnel:** no change made. In 1.1 the battery's weight column already stops above any other solid object or underground cell, so this is probably already handled by the game. A save that reproduces it is needed.
+- **Metal (steel) bridges:** the `TE_Bridge_*` steel bridges are already flat data blueprints and got the load-order fix for objects on them (untested in-game). Anything beyond that is the original author's Unity export workflow and cannot be fixed from this repo.
+
+Bug reports and fixes are welcome as issues or pull requests on this fork. Anything that is really an upstream design question should go to the original author.
 
 ---
 
